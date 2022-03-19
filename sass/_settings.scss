@@ -1,0 +1,35 @@
+:root {
+	// Colors Primary
+	--Cyan: #2ab2af;
+	--Bright_Yellow: #c0df34;
+
+	// Colors Neutral
+	--Light_Gray: #e5eff5;
+	--Grayish_Blue: #98a6bd;
+
+	// font-weight
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+}
+
+*,
+*::before,
+*::after,
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+}
+
+.attribution {
+	margin: 2rem 0;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
