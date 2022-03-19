@@ -108,6 +108,7 @@
 	flex-direction: column;
 	gap: 1rem;
 	color: white;
+	border-radius: 0 0 0.5rem 0.5rem;
 
 	.title {
 		font-size: 1.1rem;
@@ -162,6 +163,7 @@
 	}
 
 	.section-why-us {
+		border-radius: 0;
 		border-bottom-right-radius: 0.5rem;
 	}
 
